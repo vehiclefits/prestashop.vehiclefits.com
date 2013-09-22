@@ -1,0 +1,155 @@
+CHANGELOG (Historial de versiones)
+
+[ADD] = Adiciones de funcionalidades
+[MOD] = Modificaciones y actualizaciones
+[FIX] = Corrección de problemas o errores (Bugs)
+
+V1.6.0 (25/06/2012)
+- Primera version liberada.
+
+V1.6.1 (17/07/2012)
+- [FIX] Opciones duplicadas al re-indexar caracteristicas o atributos.
+
+V1.6.2 (04/08/2012)
+- [ADD] Opcion de expandir/contraer las opciones de los filtros.
+- [ADD] Opcion de mostrar u ocultar el boton de "regresar" en los buscadores.
+- [ADD] Opcion del buscador para ocultar filtros y opciones que no se relacionen con la pagina de categoria visitada por el cliente. Solo se mostrara el buscador en la pagina de categoria.
+- [ADD] Opcion de cambiar identificador HTML del contenedor donde muestra los resultados.
+- [ADD] Fichero para fijar una tarea CRON que ejecute el re-indexado de categorias y productos.
+- [ADD] Implementacion de actualizador automatico de estructura y configuracion de sql.
+- [FIX] {FrontOffice}Cuando selecciona mas de dos opciones en el buscador, y despues quitamos una opcion escogida, no vuelve a mostrar las opciones que se tenian anteriormente.
+- [FIX] No buscaba las opciones cuando se tenian dos buscadores configurados. Fallaba precisamente al filtrar entre opciones de los buscadores de diferente tipo de control.
+
+V1.6.4 (16/08/2012)
+- [FIX] Mejora de actualizador automatico de estructura y configuracion sql.
+
+V1.6.5 (27/08/2012)
+- [FIX] Problema en la estructura de la tabla de las columnas.
+- [FIX] Al tener un buscador en la posicion personalizada e intentar hacer una busqueda cambiando de pagina fallaba.
+- [MOD] Mejora en el rendimiento de la busqueda de productos.
+
+V1.6.6 (29/08/2012)
+- [MOD] Solo se indexan proveedores, fabricantes y categorias activas.
+
+V1.6.7 (30/08/2012)
+- [FIX] Problema en fichero SQL de actualizacion de la version 1.6.5.
+
+V1.6.9 (05/09/2012)
+- [ADD] Traduccion al griego.
+- [FIX] Si el buscador tiene la opcion de ocultar filtros por categoria, no buscaba productos segun la categoria en que se estaba parado.
+- [ADD] Compatibilidad con version 1.4.9.0 de PrestaShop.
+
+V1.7.0 (07/09/2012)
+- [FIX] Error en el re-indexado al instalar. Se presenta en ocasiones especiales.
+
+V1.7.2 (12/09/2012)
+- [FIX] Despues de hecha la busqueda, a los productos listados no les funciona el agregar al carrito.
+- [FIX] El buscador con la opcion de filtros por categoria, si se tenian columnas para algun filtro, no era mostrado en el buscador.
+
+V1.7.3 (25/09/2012)
+- [FIX] Se realiza carga de opciones por paginas para cuando existe mucha informacion en los filtros personalizados.
+- [FIX] Crear un buscador con la opcion de busqueda instantanea daba problema.
+
+V1.7.4 (02/10/2012)
+- [FIX] Problema al realizar busquedas desde el navegador Opera.
+- [FIX] Boton global de guardar dependencia de opciones daba problemas.
+- [ADD] Nueva opcion de poder elegir en que categorias mostrar o no mostrar un buscador. 
+- [ADD] Compatible con PrestaShop 1.5.
+
+V1.7.5 (24/10/2012)
+- [FIX] Solucion de otros problemas con el navegador Opera.
+- [MOD] Solucion de problemas y mejoras al utilizar filtros personalizados.
+- [FIX] Imposible configurar rangos de precios en PrestaShop 1.5.
+- [MOD] Mayor compatibilidad de diseño con plantillas personalizadas.
+
+V1.7.6 (01/11/2012)
+- [FIX] Borrar dependencias de filtros.
+- [ADD] Opcion de expandir/contraer en los buscadores posicionados en el TOP y HOME.
+- [MOD] Mejora de visualizacion del buscador en la posicion TOP.
+- [FIX] Duplicidad de productos al buscar en tiendas configuradas con Multi-Tienda en PrestaShop 1.5.
+- [MOD] Mejora al indexar precios de los productos.
+- [FIX] Restriccion por categoria en buscadores posicionados en home y top.
+
+V1.7.7 (15/11/2012)
+- [FIX] Paginacion con buscadores con la opcion "Ocultar opciones por categoria".
+- [MOD] Mejor rendimiento en la busqueda por precio.
+- [MOD] Actualizador de versiones mejorado.
+
+V1.7.8 (10/12/2012)
+- [FIX] Problema de paginacion en PrestaShop 1.5
+- [FIX] Al deseleccionar todos los filtros, solo muestra 1 pagina de productos.
+- [FIX] No indexa correctamente mas de 127 caracteristicas o atributos.
+- [FIX] Problema con indexado de proveedores y fabricantes en PrestaShop 1.3
+
+V1.7.9 (02/01/2013)
+- [MOD] Ahora es posible quitar el buscador de la pagina de inicio (categoria inicio) sin necesidad de activar la opcion "Ocultar filtros por categoria".
+- [FIX] Paginacion en PrestaShop 1.5 (Cantidad de productos a mostrar en el listado)
+- [ADD] Compatibilidad de actualizacion automatica con PrestaShop Addons.
+
+V1.8.0 (09/01/2013)
+- [ADD] Compatibilidad con PrestaShop version 1.5.3.1
+- [MOD] Compatibilidad de actualizacion automatica con PrestaShop Addons.
+- [FIX] Muestra duplicadas las categorias en el arbol, al momento de crear un filtro de categorias. Sucede al tener MultiTienda.
+
+V1.8.1 (28/01/2013)
+- [FIX] Al agregar o eliminar dependencia de opciones, eliminaba la asociacion de productos. Solo sucede al utilizar filtros personalizados.
+- [FIX] Error al crear un buscador con criterio "Solo las categorias".
+- [FIX] Re-indexar proveedores y fabricantes con la funcion MultiTienda activada.
+
+V1.8.2 (28/02/2013)
+- [FIX] Indexar productos por precio con la funcion MultiTienda activada.
+- [FIX] Error al volver a mostrar las opciones ocultadas en los filtros tipo lista.
+- [MOD] Indexar alfabeticamente las caracteristicas y los atributos.
+
+V1.8.3 (14/03/2013)
+- [MOD] Mejora de rendimiento. 
+
+V1.8.4 (27/03/2013)
+- [FIX] No se elimina correctamente la dependencia de filtros y por este motivo no se podian borrar opciones personalizadas creadas. 
+- [FIX] No mostraba correctamente la posicion de las opciones como se tenian puestas.
+
+V1.8.5 (18/04/2013)
+- [FIX] Lista "Ordenar por" al momento de lanzar la busqueda, no pre-seleccionaba la opcion configurada en versiones 1.5 (Preferencias->Producto).
+- [FIX] Correccion de algunos mensajes NOTICES de PHP.
+
+V1.8.6 (02/05/2013)
+- [FIX] Error al mostrar opciones por dependencias en filtros personalizados.
+- [FIX] Error al asociar un producto a opciones personalizadas. El autocompletar no dejaba agregar el producto, si este tenia asociada una referencia.
+
+V1.8.7 (20/05/2013)
+- [ADD] Ordenar alfabeticamente (A-Z o Z-A) las opciones de los filtros.
+- [ADD] Ocultar las opciones de los filtros que no correspondan con los productos de la pagina de un Fabricante.
+- [ADD] Ocultar las opciones de los filtros que no correspondan con los productos de la pagina de un Proveedor.
+
+V1.8.8 (13/06/2013)
+- [BUG] Solucion de varios problemas importantes reportados.
+
+V1.8.9 (03/07/2013)
+- [MOD] Ahora mas facilmente puede ser ubicado un buscador en una categoria, proveedor o un fabricante.
+
+V1.9.1 (23/07/2013)
+- [ADD] Funcionalidad Multi-Opcion.
+- [ADD] Crear filtros personalizados y utilizar el motor de busqueda de prestashop para consultarlos productos.
+- [MOD] Mejoras en el CORE.
+
+V1.9.2 (31/07/2013)
+- [ADD] Posibilidad de crear filtros con dependencias y opciones desde fichero CSV.
+- [ADD] Al crear filtros de categorias con dependencias se tendran en cuenta los niveles de las categorias.
+
+V1.9.3 (02/08/2013)
+- [ADD] Ahora se permite agregar productos al CSV de importacion de filtros personalizados.
+- [ADD] Funcionalidad para comparar los productos listados al momento de buscar. 
+- [ADD] Soporte de diseño de la plantilla "warehouse".
+- [ADD] Herramienta para buscar las opciones de filtros personalizados y facilitar las modificaciones.
+- [FIX] No muestra productos si solo tenemos un filtro personalizado creado.
+
+V1.9.4 (05/08/2013)
+- [FIX] Problema con la funcionalidad de Multi-Opcion.
+
+V1.9.5 (28/08/2013)
+- [MOD] Permite actualizar un buscador con filtros personalizados desde CSV, siempre y cuando se haya creado tambien con CSV.
+- [ADD] Compatibilidad con PrestaShop version 1.5.5
+
+V1.9.6 (09/09/2013)
+- [FIX] Problema en la creacion de filtros de categoria. Solucion solo para version 1.9.5.
+- [FIX] No era posible hacer comparacion de productos con los resultados del buscador. Versiones 1.5.X de PrestaShop.

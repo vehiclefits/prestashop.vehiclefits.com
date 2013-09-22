@@ -1,0 +1,155 @@
+CHANGELOG
+
+[ADD] = Adding New Functionality
+[MOD] = Modifications and upgrades
+[FIX] = Fix problems or errors (bugs)
+
+V1.6.0 (25/06/2012)
+- First version released.
+
+V1.6.1 (17/07/2012)
+- [FIX] Options to re-indexing duplicate features or attributes.
+
+V1.6.2 (04/08/2012)
+- [ADD] Option to expand / contract the options of the filters.
+- [ADD] Option to show or hide the button "Back" on search engines.
+- [ADD] Option to hide the search filters and options that do not relate to the category page accessed by the client. Only show the form on the category page.
+- [ADD] Option to change the container ID below which shows the results.
+- [ADD] file to set a cron job to run the re-indexing of categories and products.
+- [ADD] Implementation of automatic updater structure and configuration of sql.
+- [FIX] {FrontOffice} When you select  more than two options in the search box, and then remove a selected option does not show the options you had before.
+- [FIX] could not find the options when it had two searchers configured. Failed precisely to filter options from the search engines of different types of control.
+
+V1.6.4 (16/08/2012)
+-[FIX] Improved automatic updater structure and configuration of sql.
+
+V1.6.5 (27/08/2012)
+- [FIX] Problem in the structure of the table columns.
+- [FIX] Having searcher in position personalized and try to make a search page changing failed.
+- [MOD] Improved search performance of products.
+
+V1.6.6 (29/08/2012)
+- [MOD] Only is indexed suppliers, producers and categories active.
+
+V1.6.7 (30/08/2012)
+- [FIX] Problem in file SQL upgrade of version 1.6.5.
+
+V1.6.9 (05/09/2012)
+- [ADD] Greek translation.
+- [FIX] If the searcher has the option to clear filters by category, not looking products according to the category in which they stood.
+- [ADD] Support version 1.4.9.0 of PrestaShop.
+
+V1.7.0 (07/09/2012)
+- [FIX] Error in re-indexed to install. It presents on special occasions.
+
+V1.7.2 (12/09/2012)
+- [FIX] After the search, to the products listed do not work the add to cart.
+- [FIX] The searcher with the option to filter by category, if it had columns for some filters, was not show in the searcher.
+
+V1.7.3 (25/09/2012)
+- [FIX] It makes pages load of options for when there is a lot of information in the custom filters.
+- [FIX] Create a searcher without option (instant search).
+
+V1.7.4 (02/10/2012)
+- [FIX] Problem when searching from the Opera browser.
+- [FIX] The button to save global,  dependency options had problems.
+- [ADD] New option to choose in that category or not show a searcher.
+- [ADD] Compatible with PrestaShop 1.5.
+
+V1.7.5 (24/10/2012)
+- [FIX] Solution of other problems with the Opera browser.
+- [MOD] Troubleshooting and improvements when using custom filters.
+- [FIX] Unable to set price ranges in PrestaShop 1.5.
+- [MOD] Better compatibility with design templates.
+
+V1.7.6 (01/11/2012)
+- [FIX] Remove dependencies filters.
+- [ADD] Option to expand / collapse in the searchers positioned on the TOP and HOME.
+- [MOD] Improved visualization of searcher in the position TOP.
+- [FIX] Duplication of products to find in stores configured with Multi-Store in PrestaShop 1.5.
+- [MOD] Improving the product prices index.
+- [FIX] Restriction by category in searchers positioned in home and top.
+
+V1.7.7 (15/11/2012)
+- [FIX] Pagination with searcher with the option "Hide options by category."
+- [MOD] Better performance on the search based on price.
+- [MOD] Updater versions improved.
+
+V1.7.8 (12/10/2012)
+- [FIX] Problem in pagination in PrestaShop 1.5.
+- [FIX] Deselecting all filters, shows only one page of products.
+- [FIX] No indexing successfully more than 127 features or attributes.
+- [FIX] Problem with indexing suppliers and manufacturers in PrestaShop 1.3
+
+V1.7.9 (02/01/2013)
+- [MOD] You can now take the searcher in the home page (category home) without active the option "Hide filter by category."
+- [FIX] Pagination in PrestaShop 1.5 (Number of products to display in the list)
+- [ADD] Support automatic update with PrestaShop Addons.
+
+V1.8.0 (09/01/2013)
+- [ADD] Support PrestaShop version 1.5.3.1
+- [MOD] Support automatic update with PrestaShop Addons.
+- [FIX] Display duplicate categories in the tree, when creating a filter category. It happens to be Multi-Store.
+
+V1.8.1 (28/01/2013)
+- [FIX] When adding or removing options dependence was eliminated product relationship. Only happens when using custom filters.
+- [FIX] Failed to create a searcher with criteria "only categories."
+- [FIX] Re-indexing with suppliers and manufacturers with the function Multi-Store activated.
+
+V1.8.2 (28/02/2013)
+- [FIX] Indexing price products with Multitienda function activated.
+- [FIX] Failed to re-display the hidden options in the filters type "list".
+- [MOD] Indexing alphabetically characteristics and attributes.
+
+V1.8.3 (14/03/2013)
+- [MOD] Performance improvement. 
+
+V1.8.4 (27/03/2013)
+- [FIX] Not successfully removed filters dependence and for this reason could not erase customized options created.
+- [FIX] Not properly displayed the position of the options of filters.
+
+V1.8.5 (18/04/2013)
+- [FIX] List "Order by" when launching the search, not pre-selected the option configured in versions 1.5 (Preferences->Output).
+- [FIX] Fix messages NOTICES(PHP).
+
+V1.8.6 (02/05/2013)
+- [FIX] Error displaying dependencies options for custom filters.
+- [FIX] Failed to associate a product with custom options. The autocomplete kept adding the product, if this had associated a reference.
+
+V1.8.7 (20/05/2013)
+- [ADD] Sort alphabetically (A-Z or Z-A) filter options.
+- [ADD] Hide filters options that do not correspond to the products page of a Manufacturer.
+- [ADD] Hide filters options that do not correspond to the products page of a Supplier.
+
+V1.8.8 (13/06/2013)
+- [BUG] Solution of several major problems reported.
+
+V1.8.9 (03/07/2013)
+- [MOD] Now is more easily put the searcher in a category, supplier or manufacturer.
+
+V1.9.1 (23/07/2013)
+- [ADD] Multi-Option functionality.
+- [ADD] Create custom filters and use the search engine to consult prestashop products.
+- [MOD] Improved CORE.
+
+V1.9.2 (31/07/2013)
+- [ADD] Ability to create filters and options dependencies from CSV file.
+- [ADD] When creating the category filters with dependencies will be taken into consideration the levels of the categories.
+
+V1.9.3 (02/08/2013)
+- [ADD] Now you add products to CSV import of custom filters.
+- [ADD] functionality to compare the products listings when searching.
+- [ADD] Support template design "warehouse".
+- [ADD] Tool to search custom filter options and facilitate the modifications.
+- [FIX] Does not display products if you only have a custom filter created.
+
+V1.9.4 (05/08/2013)
+- [FIX] Problem with Multi-Option functionality.
+
+V1.9.5 (28/08/2013)
+- [MOD] Allow update a custom filter searcher from CSV, if you have previously created with CSV.
+- [ADD] Support PrestaShop version 1.5.5
+
+V1.9.6 (09/09/2013)
+- [FIX] Problem in creating category filters. Solution only for version 1.9.5.
+- [FIX] It was not possible to make comparison of products with search engine results. PrestaShop 1.5.x versions.

@@ -1,0 +1,10 @@
+ALTER TABLE `PREFIX_fpp_searcher` ADD COLUMN `filter_page` VARCHAR(255) NULL AFTER instant_search;
+UPDATE `PREFIX_fpp_searcher` SET `filter_page` = 'supplier' WHERE `hide_filter_supplier` = 1;
+UPDATE `PREFIX_fpp_searcher` SET `filter_page` = 'manufacturer' WHERE `hide_filter_manufacturer` = 1;
+UPDATE `PREFIX_fpp_searcher` SET `filter_page` = 'category' WHERE `hide_filter_category` = 1;
+ALTER TABLE `PREFIX_fpp_searcher` DROP COLUMN `hide_filter_manufacturer`;
+ALTER TABLE `PREFIX_fpp_searcher` DROP COLUMN `hide_filter_supplier`;
+ALTER TABLE `PREFIX_fpp_searcher` DROP COLUMN `hide_filter_category`;
+UPDATE `PREFIX_fpp_searcher` SET `filter_page` = 'all' WHERE `filter_page` IS NULL;
+ALTER TABLE `PREFIX_fpp_searcher` CHANGE `type_filter_category` `type_filter_page` TINYINT(1) ;
+ALTER TABLE `PREFIX_fpp_searcher` CHANGE `filter_categories` `filter_pages` VARCHAR(500) ;
