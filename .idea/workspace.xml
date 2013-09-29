@@ -8,10 +8,14 @@
     <file path="/HelperData.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379878800754" ignored="false" />
     <file path="/Singleton.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379878785009" ignored="false" />
     <file path="/js.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379879707646" ignored="false" />
-    <file path="/bootstrap.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379879794419" ignored="false" />
+    <file path="/bootstrap.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379904476499" ignored="false" />
     <file path="/vaf.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379879851454" ignored="false" />
     <file path="/.gitignore" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379880462960" ignored="false" />
     <file path="/product-fitments-import.csv.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379880710276" ignored="false" />
+    <file path="/Module.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379904112332" ignored="false" />
+    <file path="/phpinfo.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379901115874" ignored="false" />
+    <file path="/index.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379902216194" ignored="false" />
+    <file path="/session.php" changelist="f337451e-77ff-4271-aa0f-83625338ea23" time="1379901437831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,30 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product-fitments-import.csv.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/vaf/cli/product-fitments-import.csv.php">
+      <file leaf-file-name="Module.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vfadmin/module/Application/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="922" selection-end="922" vertical-scroll-proportion="-15.0">
-              <folding>
-                <element signature="e#6#885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.5">
+            <state line="81" column="8" selection-start="2654" selection-end="2760" vertical-scroll-proportion="-29.458334">
               <folding />
             </state>
           </provider>
@@ -63,7 +47,25 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/vaf/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="411" selection-end="411" vertical-scroll-proportion="0.17502917">
+            <state line="8" column="4" selection-start="324" selection-end="412" vertical-scroll-proportion="0.14002334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="120" selection-end="131" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="21" selection-end="31" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -79,10 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/defines.inc.php" />
-        <option value="$PROJECT_DIR$/modules/vaf/HelperData.php" />
-        <option value="$PROJECT_DIR$/modules/vaf/Vehicle-Fits-Core/library/VF/Singleton.php" />
-        <option value="$PROJECT_DIR$/modules/vaf/schema.sql" />
         <option value="$PROJECT_DIR$/modules/vaf/composer.json" />
         <option value="$PROJECT_DIR$/modules/vaf/js.php" />
         <option value="$PROJECT_DIR$/modules/vaf/process.php" />
@@ -93,6 +91,11 @@
         <option value="$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/vfconfig.php" />
         <option value="$PROJECT_DIR$/modules/vaf/cli/product-fitments-import.csv.php" />
         <option value="$PROJECT_DIR$/config/settings.inc.php" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/vfadmin/public/phpinfo.php" />
+        <option value="$PROJECT_DIR$/vfadmin/public/session.php" />
+        <option value="$PROJECT_DIR$/vfadmin/public/index.php" />
+        <option value="$PROJECT_DIR$/vfadmin/module/Application/Module.php" />
         <option value="$PROJECT_DIR$/modules/vaf/bootstrap.php" />
       </list>
     </option>
@@ -130,7 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,6 +161,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vfadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop.vehiclefits.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prestashop.vehiclefits.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -178,28 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vaf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prestashop.vehiclefits.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prestashop.vehiclefits.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,11 +213,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vehiclefits.com" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -251,25 +248,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984066" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2594009" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -333,118 +330,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/library/VF/TestCase.php">
+    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/vfconfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="8" selection-start="1834" selection-end="1908" vertical-scroll-proportion="-16.25">
+        <state line="5" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/cli/vf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="366" selection-end="380" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/library/VF/CLI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="37" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.5950992" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/vaf/cli/product-fitments-import.csv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="133" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/library/VF/Singleton.php">
+    <entry file="file://$PROJECT_DIR$/vfadmin/init_autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="13" selection-start="9531" selection-end="9531" vertical-scroll-proportion="-20.708334">
-          <folding>
-            <element signature="e#6#884#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="286" selection-end="378" vertical-scroll-proportion="-5.625">
+        <state line="36" column="12" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-18.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/process.php">
+    <entry file="file://$PROJECT_DIR$/vfadmin/public/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="75" selection-start="311" selection-end="311" vertical-scroll-proportion="-4.375">
+        <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/vaf/vaf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375">
+        <state line="18" column="23" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/bootstrap-tests.php">
+    <entry file="file://$PROJECT_DIR$/vfadmin/public/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.87514585">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/.gitignore">
+    <entry file="file://$PROJECT_DIR$/vfadmin/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="71" selection-end="71" vertical-scroll-proportion="0.085130535">
+        <state line="15" column="0" selection-start="402" selection-end="517" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/vfconfig.default.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="0.08751459">
+        <state line="2" column="22" selection-start="21" selection-end="31" vertical-scroll-proportion="-1.25">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/bin/vf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/vfconfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/cli/vf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="366" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/vendor/vehiclefits/vehicle-fits-core/library/VF/CLI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="37" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.5950992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/vaf/cli/product-fitments-import.csv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="922" selection-end="922" vertical-scroll-proportion="-15.0">
-          <folding>
-            <element signature="e#6#885#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.14002334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/defines.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.17502917">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.5">
+        <state line="4" column="19" selection-start="120" selection-end="131" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vfadmin/module/Application/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="8" selection-start="2654" selection-end="2760" vertical-scroll-proportion="-29.458334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/vaf/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="411" selection-end="411" vertical-scroll-proportion="0.17502917">
+        <state line="8" column="4" selection-start="324" selection-end="412" vertical-scroll-proportion="0.14002334">
           <folding />
         </state>
       </provider>
